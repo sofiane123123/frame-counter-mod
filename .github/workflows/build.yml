@@ -13,7 +13,8 @@ jobs:
     name: ${{ matrix.config.name }}
     runs-on: ${{ matrix.config.os }}
     steps:
-      - std/checkout@v4
-      - geode-sdk/build-geode-mod@main
+      - uses: actions/checkout@v4
+      - uses: geode-sdk/build-geode-mod@main
         with:
           target: ${{ matrix.config.target }}
+          
