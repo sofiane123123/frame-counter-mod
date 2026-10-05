@@ -1,0 +1,15 @@
+{
+    "geode": "3.0.0-beta.1",
+    "id": "sofianegg.frame_counter",
+    "name": "True Frame Perfect Analyzer",
+    "version": "1.0.0",
+    "developer": "sofianegg",
+    "description": "Calculates precise frame intervals and counts physics engine steps for layout jump trajectories.",
+    "dependencies": [
+        {
+            "id": "geode.loader",
+            "version": ">=3.0.0-beta.1",
+            "importance": "required"
+        }
+    ]
+}
